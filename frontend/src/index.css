@@ -1,0 +1,155 @@
+.chflex {
+    display: flex !important;
+}
+
+.gap20 {
+    gap: 20px !important;
+}
+
+.aligncenter {
+    align-items: center !important;
+}
+
+/* user-profile page css start */
+.chAdminUserProfileMain .ant-descriptions-item-label {
+    color: #222 !important;
+}
+
+.chAdminUserProfileMain .ant-descriptions-item-content {
+    color: #444;
+    font-weight: 500;
+}
+
+/* user-profile page css start */
+
+/* Number User Billing Addons Modal Css Start */
+.NmbrUsrBligAddonsMdl .ant-modal-header .ant-modal-title,
+.createUpdatePlanModalMain .ant-modal-header .ant-modal-title {
+    margin-bottom: 20px;
+}
+
+.NmbrUsrBligAddonsMdl form .ant-form-item-control-input-content,
+.NmbrUsrBligAddonsMdl form .ant-form-item-control-input-content>div,
+.createUpdatePlanModalMain form .ant-form-item-control-input-content>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.emailInputNonRecuringMdl .ant-form-item-control-input-content>div,
+.NmbrUsrBligAddonsMdl form .ant-form-item-control-input-content div:has(textarea) {
+    flex-basis: 100% !important;
+}
+
+.NmbrUsrBligAddonsMdl form h5,
+.createUpdatePlanModalMain form h5 {
+    color: #6f7c84 !important;
+}
+
+/* Number User Billing Addons Modal Css End */
+
+/* CallLog Page Css start */
+.callLogMainDiv {
+    flex-direction: column;
+}
+
+@media (max-width:1200px) {
+    .mediumscrnmb20 {
+        margin-bottom: 20px;
+    }
+}
+
+/* CallLog Page Css end  */
+
+/* Numbers Details Modal & User Name and Email Modal Css Start */
+.ant-modal-content:has(.ant-modal-body>.NumberDetailsModalMain) .ant-modal-close,
+.ant-modal-content:has(.ant-modal-body>.UserNameEmailModalMain) .ant-modal-close {
+    top: 10px !important;
+    right: 10px !important;
+}
+
+.ant-modal-content:has(.ant-modal-body>.NumberDetailsModalMain),
+.ant-modal-content:has(.ant-modal-body>.UserNameEmailModalMain) {
+    padding-top: 40px !important;
+}
+
+.useNameEmailModuleRightsCards .grid-item {
+    padding: 0 !important;
+}
+
+/* Numbers Details Modal & User Name and Email Modal Css End */
+
+/* Plan Features Modal Css Start */
+.PlanFeaturesFormMain .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Plan Features Modal Css End */
+
+/* Plan Advantages Modal Css Start */
+.chPlanAdvantagesModalMain,
+.chPlanFeaturesModalMain {
+    width: auto !important;
+    max-width: 900px !important;
+}
+
+.chPlanFeaturesModalMain {
+    width: auto !important;
+    max-width: 1000px !important;
+}
+
+.PlnFtrsFormInptRdoGrp .ant-radio-inner {
+    height: 14px !important;
+    width: 14px !important;
+}
+
+.PlnFtrsFormInptRdoGrp .ant-radio-inner::after {
+    width: 16px !important;
+    height: 16px !important;
+    margin-block-start: -8px !important;
+    margin-inline-start: -8px !important;
+}
+
+.chPlanAdvantagesModalMain .ant-card .ant-card-body {
+    padding: 10px 20px !important;
+}
+
+.chPlanAdvantagesModalMain .ant-modal-title {
+    font-size: 22px !important;
+}
+
+.globalAdvantagesCardsMain .ant-card .ant-card-head-title,
+.countrybasedCardsMain .ant-card .ant-card-head-title,
+.addOnCountryBasedCardsMain .ant-card .ant-card-head-title {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.globalAdvantagesCardsMain>.ant-card-head>.ant-card-head-wrapper>.ant-card-head-title,
+.countrybasedCardsMain>.ant-card-head>.ant-card-head-wrapper>.ant-card-head-title,
+.addOnCountryBasedCardsMain>.ant-card-head>.ant-card-head-wrapper>.ant-card-head-title {
+    font-size: 18px !important;
+}
+
+.globalAdvantagesCardsMain>.ant-card-body>.ant-card>.ant-card-head>.ant-card-head-wrapper>.ant-card-head-title,
+.countrybasedCardsMain>.ant-card-body>.ant-card>.ant-card-head>.ant-card-head-wrapper>.ant-card-head-title,
+.addOnCountryBasedCardsMain>.ant-card-body>.ant-card>.ant-card-head>.ant-card-head-wrapper>.ant-card-head-title {
+    font-size: 16px !important;
+}
+
+/* Plan Advantages Modal Css End */
+
+.ant-badge.ant-badge-status.userHistoryBadge .ant-badge-status-dot {
+    width: 14px;
+    height: 14px;
+}
+
+.userHistoryBadgeCursor {
+    cursor: pointer;
+}
+
+.userProfileSearchAnchor .ant-anchor::before {
+    display: none;
+}

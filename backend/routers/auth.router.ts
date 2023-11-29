@@ -1,0 +1,28 @@
+import AuthController from "../controllers/auth.controller.ts";
+import { Router } from "../deps.ts";
+import { validate } from "../middlewares/validate.middleware.ts";
+import {
+  loginValidation,
+  refreshTokenValidation,
+} from "../validations/auth.validation.ts";
+
+const router = new Router();
+
+router.post(
+  "/api/auth/login",
+  validate(loginValidation),
+  AuthController.login,
+);
+
+router.post(
+  "/api/auth/refresh-tokens",
+  validate(refreshTokenValidation),
+  AuthController.refreshTokens,
+);
+
+router.post(
+  "/api/auth/logout",
+  AuthController.logout,
+);
+
+export default router;
